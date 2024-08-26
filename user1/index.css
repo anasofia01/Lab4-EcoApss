@@ -1,0 +1,43 @@
+.btn.btn-submit-register,
+.btn.btn-submit-login,
+.btn.login,
+.btn.register {
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #407178;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn.btn-submit-register:hover,
+.btn.btn-submit-login:hover,
+.btn.login:hover,
+.btn.register:hover {
+	background-color: #38656c;
+	color: #fff;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+	background-color: #eae8e8 !important;
+	text-align: center;
+}
+
+.container-buttons {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
